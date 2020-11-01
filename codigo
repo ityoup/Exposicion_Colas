@@ -6,14 +6,14 @@ public class Queues {
 
 	public static void main(String[] args) {
 		
-		//declaranos la cola y impotamos la libreria Queue
+		//declaranos la cola e importamos la librería Queue
 		Queue<Integer> q = new LinkedList<>(); //la q es mi varible de manejo 
 
-		//este sistem nos ayuda a saber si nuestro Queue(cola) esta vacia 
+		//este sistem nos ayuda a saber si nuestro Queue(cola) esta vacía 
 		System.out.println(q);
 		
 		//add nos sirve para agregar un dato inicial sabiendo que no se va a equivocar el usuario.
-		//y el offer nos sirver cuando sabemos que el usuario se va a equivicar en inserta lo solicitado 
+		//y el offer nos sirve cuando sabemos que el usuario se va a equivocar en insertar lo solicitado 
 		
 		//q.add(1);
 		//En este caso puse los offer por que suponagamos que el usuario se puede equivocar 
@@ -35,11 +35,11 @@ public class Queues {
 		//sacar el tamaño de los elementos de la cola, size nos ayuda a obtener el tamaño de la cola  
 		System.out.println("Tamaño de la cola: " + q.size());
 		
-		//saber si nuestra cola esta vacia o no, isEmpty nos ayuda a saber ese dato 
+		//saber si nuestra cola esta vacía o no, isEmpty nos ayuda a saber ese dato 
 		System.out.println("Esta vacia la cola?: " +q.isEmpty());
 		
 		//Eliminar todos los elementos de la cola, puede ser con poll, pero para no estar poniendo poll muchas veces y asi vaciar la cola 
-		//vamos a utlizar clear, sacamos el tamaño de la cola y vereficamos que este vacia 
+		//vamos a utlizar clear, sacamos el tamaño de la cola y verificamos que este vacía 
 		q.clear();
 		System.out.println("Tamaño de la cola: " + q.size());
 		System.out.println("Esta vacia la cola?: " +q.isEmpty());
