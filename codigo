@@ -1,0 +1,28 @@
+//Edgar Hernandez
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Queues {
+
+	public static void main(String[] args) {
+		
+		//declaranos la cola y impotamos la libreria Queue
+		Queue<Integer> q = new LinkedList<>(); //la q es mi varible de manejo 
+
+		//este sistem nos ayuda a saber si nuestro Queue(cola) esta vacia 
+		System.out.println(q);
+		
+		//add nos sirve para agregar un dato inicial sabiendo que no se va a equivocar el usuario.
+		//y el offer nos sirver cuando sabemos que el usuario se va a equivicar en inserta lo solicitado 
+		
+		//q.add(1);
+		//En este caso puse los offer por que suponagamos que el usuario se puede equivocar 
+		q.offer(1);
+		q.offer(2);
+		q.offer(3);
+		q.offer(4);
+		q.offer(5);
+		
+		System.out.println(q);
+		
+	
