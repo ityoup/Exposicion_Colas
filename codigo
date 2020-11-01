@@ -22,16 +22,17 @@ public class Queues {
 		q.offer(3);
 		q.offer(4);
 		q.offer(5);
-		//Daniela Macedo
+		
 		System.out.println(q);
-		//saber que elemento esta en la cabeza de la cola, mostrar sin eleiminar, peek me sirve para saber y mostrar el elemnto siguiente 
+		//Daniela Macedo
+		//saber que elemento esta en la cabeza de la cola, mostrar sin eliminar, peek sirve para saber y mostrar el elemento siguiente 
 		System.out.println("Elemento siguiente: " + q.peek());
 		
-		//devolver el emento de la cola pero ahora si eliminamos, poll nos ayuda a hacer esto 
+		//devolver el elemento de la cola pero ahora si eliminamos, poll nos ayuda a hacer esto 
 		System.out.println("elemento siguiente y eliminarlo: " + q.poll());
 		System.out.println(q);
 		
-		//sacar el tamaño de los elemnetos de la cola, size nos ayuda a obtener el tamaño de la cola  
+		//sacar el tamaño de los elementos de la cola, size nos ayuda a obtener el tamaño de la cola  
 		System.out.println("Tamaño de la cola: " + q.size());
 		
 		//saber si nuestra cola esta vacia o no, isEmpty nos ayuda a saber ese dato 
@@ -47,5 +48,4 @@ public class Queues {
 
 }
 
-		
 	
