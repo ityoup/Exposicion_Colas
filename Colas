@@ -1,0 +1,13 @@
+//metodo para insertar los datos o elementos 
+	public void insertar(int ele){
+		NodoCola nuevo = new NodoCola(ele);
+		//comaparamos si la cola esta vacia 
+		if(estaVacia()){
+			inicio = nuevo;
+		}else{
+			fin.siguiente=nuevo;
+		}
+		fin=nuevo;
+		tama++; //el tamaño se incrementa 
+	}
+	
