@@ -1,3 +1,4 @@
+//Juan Carlos Lizarraga Grave
 //metodo para insertar los datos o elementos 
 	public void insertar(int ele){
 		NodoCola nuevo = new NodoCola(ele);
