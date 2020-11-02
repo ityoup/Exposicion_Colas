@@ -1,8 +1,8 @@
-//Juan Carlos Lizarrag
-//metodo para insertar los datos o elementos a
+//Juan Carlos Lizarraga
+//Metodo para insertar los datos o elementos
 	public void insertar(int ele){
 		NodoCola nuevo = new NodoCola(ele);
-		//comaparamos si la cola esta vacia 
+		//Se compara si la cola esta vacia 
 		if(estaVacia()){
 			inicio = nuevo;
 		}else{
